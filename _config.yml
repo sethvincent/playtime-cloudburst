@@ -1,0 +1,9 @@
+#source: src
+server: true
+auto: true
+title: "cloudburst"
+google_analytics_id: UA-xxx-x
+baseurl: "/cloudburst"
+exclude:
+- .gitignore
+- README.md
