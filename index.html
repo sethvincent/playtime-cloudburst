@@ -15,6 +15,13 @@
     <link rel="stylesheet" type="text/css" href="lib/normalize.css" />
     
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
     <title>cloudburst wines</title>
   </head>
   <body>
@@ -22,7 +29,7 @@
     <header>
       <img src="images/logo-574x78.png" class="logo" />
     </header>
-    <nav id="main">
+    <nav id="primary">
       <ul>
         <li>wine</li>
         <li>spirit</li>
@@ -31,7 +38,7 @@
         <li>contact</li>
       </ul>
     </nav>
-    <div id="main">
+    <main role="main">
       <div class="container">
         <!--[if lt IE 7]>
           <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -62,12 +69,13 @@
         </div>
         
       </div>
-    </div>
+    </main>
     <footer>
       <div class="container">
 
       </div>
     </footer>
+    <script src="lib/html5shiv.js"></script>
     <script src="lib/jquery-1.9.1.min.js"></script>
     <script src="lib/skrollr.min.js">
     <script src="lib/skrollr.menu.min.js">
