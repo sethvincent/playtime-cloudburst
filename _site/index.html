@@ -8,12 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height" />
     <meta name="description" content="cloudburst wines">
-
+    
     <link rel="stylesheet" type="text/css" href="fonts/tradegothic/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="fonts/baskerville-mt/stylesheet.css" />
-    
     <link rel="stylesheet" type="text/css" href="lib/normalize.css" />
-    
     <link rel="stylesheet" type="text/css" href="style.css" />
     <!--[if gte IE 9]>
       <style type="text/css">
@@ -22,20 +20,32 @@
         }
       </style>
     <![endif]-->
+    
     <title>cloudburst wines</title>
   </head>
   <body>
     <div class="background"></div>
     <header>
       <a href="#" data-menu-top="0"><img src="images/logo-574x78.png" class="logo" /></a>
+      
+      <a id="v65-toggleModalCart">
+        Cart <strong>0</strong> items: <strong>$0.00</strong>
+      </a>
+      
+      <!-- replace above link with: -->
+      <!-- <v65:modalCart display="dontShowIfZero"></v65:modalCart> -->
+      
+      
     </header>
+
     <nav id="primary">
       <ul>
         <li><a href="#wine" data-menu-top="300">wine</a></li>
         <li><a href="#spirit" data-menu-top="1360">spirit</a></li>
-        <li><a href="#earth" data-menu-top="1000">earth</a></li>
-        <li><a href="#practice" data-menu-top="1500">practice</a></li>
-        <li><a href="#contact" data-menu-top="2500">contact</a></li>
+        <li><a href="#earth" data-menu-top="1500">earth</a></li>
+        <li><a href="#practice" data-menu-top="2500">practice</a></li>
+        <li><a href="#cart" data-menu-top="3500">cart</a></li>
+        <li><a href="#about" data-menu-top="4500">about</a></li>
       </ul>
     </nav>
     <main role="main">
@@ -52,21 +62,20 @@
           </div>
           
           <div id="spirit" class="section">
+            <h2>Spirit</h2>
             <h3>Curiosity. Wine connects us with people and with the <br>Divine. It transmutes the moment. It lifts the spirit.</h3>
             
             <div class="content">
               <p>Everything is deeply interconnected. What we do in one part of the farm is reflected in another part. The farm is alive and responsive, especially in the soil.</p>
-              
               <p>We began our practice here by growing crops that increased soil fertility, fixed nitrogen and brought microorganisms and life into depleted soil. Soon the place was home to worms, bugs, frogs, mice, snakes, birds and the occasional kangaroo.</p>
-              
               <p>We began our practice here by growing crops that increased soil fertility, fixed nitrogen and brought microorganisms and life into depleted soil. Soon the place was home to worms, bugs, frogs, mice, snakes, birds and the occasional kangaroo.</p>
-              
               <p>We began our practice here by growing crops that increased soil fertility, fixed nitrogen and brought microorganisms and life into depleted soil. Soon the place was home to worms, bugs, frogs, mice, snakes, birds and the occasional kangaroo.</p>
             </div>
             
             <div class="image">
               <img src="http://placekitten.com/400/250" />
               <p class="caption">Curiosity. Wine connects us with people and with the Divine. It transmutes the moment. It lifts the spirit.</p>
+            </div>
           </div>
           
           <div id="earth" class="section">
@@ -75,12 +84,20 @@
           <div id="practice" class="section">
           </div>
           
-          <div id="contact" class="section">
+          <div id="cart" class="section">
+          </div>
+          
+          <div id="about" class="section">
           </div>
           
         </div>
         
+        
         <div class="sidebar-shop">
+          <div class="drawer-pull">Store</div>
+          <div class="drawer">
+            
+          </div>
         </div>
         
       </div>

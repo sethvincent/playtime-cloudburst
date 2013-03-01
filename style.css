@@ -65,6 +65,27 @@ header {
   z-index: 900;
 }
 
+#v65-toggleModalCart {
+  position: fixed;
+  right: 50px;
+  text-align: right;
+  margin-top: -60px;
+  margin-right: 50px;
+  font-size: 12px;
+  width: 150px;
+}
+
+#v65-toggleModalCart:before {
+  content: "";
+  display: inline-block;
+  background-image: url("images/icon-bottle.png");
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 16px;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+
 img.logo {
   margin: 40px auto 20px auto;
   display: block;
@@ -105,6 +126,10 @@ main {
   margin: 20px auto;
   width: 850px;
   clear: both;
+}
+
+.section h2 {
+  font-family: 'tradegothicbold';
 }
 
 
@@ -203,7 +228,7 @@ img.life-force {
 
 #spirit h3 {
   font-family: "baskerville_mtitalic", Baskerville, Georgia, serif;
-  font-size: 42px;
+  font-size: 47px;
   line-height: 1.3em;
   text-align: center;
 }
