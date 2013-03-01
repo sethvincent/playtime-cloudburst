@@ -103,6 +103,37 @@ main {
   min-height: 300px;
   margin: 20px auto;
   width: 850px;
+  clear: both;
+}
+
+/*
+*
+* WINE SECTION
+*
+*/
+
+#wine {
+  -skrollr-animation-name:wineanimation;
+}
+
+/* WINE ANIMATION */
+@-skrollr-keyframes wineanimation {
+  0 {
+    position: fixed;
+    margin: 0px auto;
+    width: 100%;
+  }
+
+  300 {
+    width: 70%;
+    float: left;
+    margin-bottom: 300px;
+  }
+  
+  600 {
+    width: 100%;
+    position: static;
+  }
 }
 
 img.bottle {
@@ -110,8 +141,28 @@ img.bottle {
   display: block;
 }
 
+
+/*
+*
+* SPIRIT SECTION
+*
+*/
+
 #spirit {
-  margin-top: 550px;
+  -skrollr-animation-name:spiritanimation;
+}
+
+/* SPIRIT ANIMATION */
+@-skrollr-keyframes spiritanimation {
+  0 {
+    position: fixed;
+    margin: 500px auto;
+    left: calc(50% - 425px);
+  }
+
+  600 {
+    position:static;
+  }
 }
 
 #spirit h3 {
