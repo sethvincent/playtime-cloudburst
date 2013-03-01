@@ -211,7 +211,7 @@ img.life-force {
 
 #spirit {
   -skrollr-animation-name:spiritanimation;
-  margin: 1400px auto;
+  margin: 1200px auto 0px auto;
 }
 
 /* SPIRIT ANIMATION */
@@ -222,7 +222,7 @@ img.life-force {
   }
 
   600 {
-  position: static;
+    position: static;
   }
 }
 
@@ -247,6 +247,37 @@ img.life-force {
   font-size: 33px;
   line-height: 1.5em;
 }
+
+
+/*
+*
+* EARTH SECTION
+*
+*/
+
+#earth {
+  -skrollr-animation-name:spiritanimation;
+  margin: 500px auto 0px auto;
+}
+
+
+/*
+*
+* PRACTICE SECTION
+*
+*/
+
+#practice {
+  -skrollr-animation-name:spiritanimation;
+  margin: 500px auto 0px auto;
+}
+
+
+/*
+*
+* STORE
+*
+*/
 
 .sidebar-shop {
   position: fixed;
@@ -286,12 +317,13 @@ img.life-force {
   margin-left: -15px;
   letter-spacing: 2px;
   width: 40px;
+  font-size: 14px;
   -webkit-border-radius: 3px 3px 0px 0px;
           border-radius: 3px 3px 0px 0px;
 }
 
 .sidebar-shop .drawer-pull.pulled {
-  margin-left: 406px;
+  margin-left: 425px;
 }
 
 .sidebar-shop .drawer {
@@ -299,10 +331,14 @@ img.life-force {
   top: 0;
   position: fixed;
   width: 400px;
-  height: 100%;
+  height: calc(100% - 20px);
   background-color: rgba(157, 157, 158, 0.7);
-  border-right: 1px solid rgba(157, 157, 158, 0.3);
-  padding: 5px 10px 1px 10px;
+  padding: 20px;  
+}
+
+.sidebar-shop .drawer-content {
+  height: calc(100% - 20px);
+  overflow: scroll;
 }
 
 
