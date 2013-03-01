@@ -6,3 +6,13 @@ skrollr.menu.init(s, {
     duration: 800, //How long the animation should take in ms.
     easing: 'linear' //The easing function to use.
 });
+
+$(".drawer-pull").click(function(){
+  if ( $(".drawer").is(":hidden") ) {
+    $(".drawer").show();
+    $(".drawer-pull").addClass("pulled");
+  } else {
+    $(".drawer").hide();
+    $(".drawer-pull").removeClass("pulled");
+  }
+});
