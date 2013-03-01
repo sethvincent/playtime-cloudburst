@@ -248,6 +248,43 @@ img.life-force {
   line-height: 1.5em;
 }
 
+.sidebar-shop {
+  position: fixed;
+  top: 0;
+  z-index: 1100;
+}
+
+.sidebar-shop .drawer-pull {
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+
+  /* IE */
+  -ms-transform: rotate(90deg);
+
+  /* Opera */
+  -o-transform: rotate(90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
+  background-color: #9d9d9e;
+  padding: 5px 10px 1px 10px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 300px;
+  margin-left: -16px;
+  letter-spacing: 2px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+          border-radius: 3px 3px 0px 0px;
+}
+
+.sidebar-shop .drawer {
+  display: none;
+}
+
 
 /* clearfix */
 .row:before,
